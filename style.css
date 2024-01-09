@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+body{
+    background-color: #006633;
+}
+
+header{
+    background-image: url(images/leaf-green.jpg);
+    height: 100px;
+    box-shadow: 5px 5px 5px rgb(105, 105, 105);
+}
+
+h1{
+    position: absolute;
+    font-family:'Berkshire Swash', cursive;
+    letter-spacing: 4.5px;
+    padding: 10px 130px;
+    font-size: 42px;
+    text-shadow: 4px 4px 4px rgb(22, 22, 22);
+    color: white;
+    margin: 0;
+}
+
+h2{
+    font-weight: 800;
+    font-family: arial, sans-serif;
+    color: #007a10;
+}
+
+h3{
+    color: white;
+    padding: 65px 185px;
+    font-family: Arial, sans-serif;
+    font-size: 13.5px;
+    font-weight: 900;
+    text-shadow: 4px 4px 4px rgb(22, 22, 22);
+}
+
+#page{
+   
+    margin: 30px 0px 30px 200px;
+    width: 800px;
+    height: 980px;
+    background-color: white;
+    background-image: url(images/flower.jpg);
+    background-position: 180px 240px;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+label{
+    margin-right: 175px;
+}
+
+td{
+    padding: 7px 0px 7px 5px;
+}
+
+ul li{
+    list-style: none;
+}
+
+p{
+    line-height: 3px;
+}
+
+footer{
+    padding-top: 5px;
+}
+
+nav{
+    font-size: 70px;
+    padding: 0px 5px 0px 5px; 
+}
+
+label[for="checkbox"]{
+    accent-color: rgb(0, 119, 255);
+    border-radius: 15px;
+}
+
+label[for="submit"]{
+    border-radius: 15px;
+    accent-color: white;
+}
+
